@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 
 
 export default defineConfig({
-
+  title: "Zap docs",
   // base: "/docs/",
   cleanUrls: true,
   themeConfig: {
@@ -13,7 +13,7 @@ export default defineConfig({
     provider: "local",
     },
     nav: [
-      { text: 'Introduction', link: '/' },
+      { text: 'Zap docs', link: '/' },
       { text: 'RPC details', link: '/rpc-details' },
       { text: 'eth_ RPC API', link: '/eth-namespace' },
       { text: 'zap_ RPC API', link: '/zap-namespace' },
@@ -24,7 +24,7 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: 'Introduction', link: '/' },
+          { text: 'Zap docs', link: '/' },
           { text: 'RPC details', link: '/rpc-details' },
           { text: 'eth_ RPC API', link: '/eth-namespace' },
           { text: 'zap_ RPC API', link: '/zap-namespace' },
@@ -36,7 +36,7 @@ export default defineConfig({
       light: "/logo1-re.png",
       dark: "/logo1-re_white.png"
     },
-    logoLink: "/docs/",
+    logoLink: "/",
     siteTitle: false
   },
 
