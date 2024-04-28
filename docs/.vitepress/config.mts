@@ -5,10 +5,9 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Zap docs",
-  // base: "/docs/",
+  base: "/zap-documentation/",
   cleanUrls: true,
   themeConfig: {
-    
     search: {
     provider: "local",
     },
